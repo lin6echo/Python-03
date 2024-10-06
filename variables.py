@@ -1,4 +1,4 @@
-your_name="fika"
+your_name="python"
 a=10
 b=2.0
 c=255
