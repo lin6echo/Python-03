@@ -1,10 +1,17 @@
-x = 31
-y = range(1, x)
+number = int(input("Enter a number:"))
 
-for n in y:
-    if x % n == 0:
-        
-        print("Nem prímszám")
-        
+flag = False
 
-    
+if number == 0 or number== 1:
+    print(number, "is not a prime number")
+elif number > 1:
+
+    for i in range(2, number):
+        if (number % i) == 0:
+            flag = True
+            break
+
+if flag:
+    print(number, "is not a prime number")
+else:
+    print(number, "is a prime number")
