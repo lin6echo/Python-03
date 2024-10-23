@@ -1,7 +1,9 @@
 x = int(input("What's x?"))
 
+if x == 0 or x == 1:
+    print(x, "is not a prime number")
 
-if x % 2 == 0:
+elif x % 2 == 0:
     x = 2
     print("It was a prime number")
 elif x % 2 == 0:
