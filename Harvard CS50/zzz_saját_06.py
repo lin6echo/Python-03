@@ -1,7 +1,9 @@
-x = (input("What's x?"))
+n=int(input("Enter a number: "))
 
-i = 1
-for i in x:
-    print(x)
-   
+d = 0
+for i in range(1, n + 1):
+    if (n % i) == 0:
+        d += 1
+        print(i)
+
 
