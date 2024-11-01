@@ -4,8 +4,6 @@ x = list(range(1,101))
 
 m = random.sample(x, 10)
 
-#print(sorted(my_number))
-
 n = len(m)
 
 for i in range(n):
