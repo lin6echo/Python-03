@@ -1,8 +1,11 @@
+
 class Student:
     def __init__(self, name, house):
+        if not name:
+            return None
         self.name = name
         self.house = house
-
+ 
 def main():
     student = get_student()
     print(f"{student.name} from {student.house}")
