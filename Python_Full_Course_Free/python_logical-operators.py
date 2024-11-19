@@ -16,7 +16,7 @@ is_sunny = True
 
 if temp >= 28 and is_sunny:
     print("It is HOT outside")
-    print("It is sunny")
+    print("It is sunny")  
 elif temp <= 0 and is_sunny:
     print("It is COLD outside")
     print("It is sunny")

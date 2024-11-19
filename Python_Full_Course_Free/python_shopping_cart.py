@@ -1,4 +1,4 @@
-# Exercise 2 Shoppint Cart Program
+# Exercise 2 Shopping Cart Program
 
 item = input("What item would you like to buy?: ")
 price = float(input("What is the price?: "))
