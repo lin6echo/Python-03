@@ -23,7 +23,7 @@ sheet.cell(row = 3, column = 3).font = Font(size = 24, bold = True)
 
 sheet.cell(row = 4, column = 4).value = "GeeksforGeeks"
 
-# set the font name to "Times New Roman"
+# set the font name to "Ubuntu"
 sheet.cell(row = 4, column = 4).font = Font(size = 24, name = "Ubuntu")
 
 
